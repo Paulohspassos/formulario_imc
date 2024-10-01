@@ -12,14 +12,22 @@
         <h1>Calcule seu IMC</h1>
         <section id="principal">
             <form action="#" id="idForm">
-                <label for="name">Nome</label>
-                <input type="text" id="idName" placeholder="Insira seu nome aqui" required>
-                <label for="nasc">Data de nascimento</label>
-                <input type="date" name="nasc" id="idNasc">
-                <label for="peso">Peso</label>
-                <input type="number" name="peso" id="idPeso" placeholder="Insira seu peso em quilos">
-                <label for="alt">Altura</label>
-                <input type="number" name="alt" id="idAlt" placeholder="Insira sua altura em metros">
+                <div class="area">
+                    <label for="name">Nome</label>
+                    <input type="text" id="idName" placeholder="Insira seu nome aqui" required>
+                </div>
+                <div class="area">
+                    <label for="nasc">Data de nascimento</label>
+                    <input type="date" name="nasc" id="idNasc">
+                </div>
+                <div class="area">
+                    <label for="peso">Peso</label>
+                    <input type="number" name="peso" id="idPeso" placeholder="Insira seu peso em quilos">
+                </div>
+                <div class="area">
+                    <label for="alt">Altura</label>
+                    <input type="number" name="alt" id="idAlt" placeholder="Insira sua altura em metros">
+                </div>
                 <button type="submit" id="idSubmit">Calcular</button>
             </form>
             <div id="res"></div>
