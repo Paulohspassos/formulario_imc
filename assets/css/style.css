@@ -77,10 +77,15 @@ button:active {
     background-color: rgb(3, 83, 3);
 }
 
-footer {
-    display: block;
-    font-size: .7rem;
-    text-align: center;
-    background-color: rgba(161, 47, 47, 0.322);
+#res {
+    background-color: #2b81328e;
+    width: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(46, 42, 42, 0.425);
+    margin: 8px auto 10px;
+    display: none;
     color: #fff;
+    text-shadow: 0 0 10px rgba(26, 26, 26, 0.836);
+    line-height: 1.8rem;
 }
