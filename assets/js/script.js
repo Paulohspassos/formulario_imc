@@ -94,25 +94,4 @@ doc.addEventListener('submit', e => {
         peso.value = '';
         altura.value = '';
     }
-
-    // result.innerHTML = `<h2>${nome.value}</h2>
-    //                     <p>Nascido em: ${arrayData[2]}/${arrayData[1]}/${arrayData[0]}</p>
-    //                     <p>Peso atual: ${peso.value} Kg</p>
-    //                     <p>Medindo: ${altura.value}m</p>
-    //                     <p>Idade: ${age} anos</p>
-    //                     <p>Situação: <strong>${resImc}</strong></p>`
-
-    //     result.style.display = 'block'
-
-    //     nome.value = '';
-    //     dnasc.value = '';
-    //     peso.value = '';
-    //     altura.value = '';
-
-    // console.log(typeof nome.value);
-    // console.log(typeof dnasc.value);
-    // console.log(typeof peso.value);
-    // console.log(typeof altura.value);
-    // console.log(age);
-    // console.log(resImc);
 })
